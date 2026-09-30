@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import com.stock.stock_trading_portfolio_system.service.JwtService;
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "${FRONTEND_URL:http://localhost:5173}")
+
 public class AuthController {
 
     private final AuthService authService;

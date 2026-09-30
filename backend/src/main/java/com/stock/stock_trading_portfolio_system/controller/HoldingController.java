@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/holdings")
-@CrossOrigin(origins = "${FRONTEND_URL:http://localhost:5173}")
+
 public class HoldingController {
 
     private final HoldingService holdingService;

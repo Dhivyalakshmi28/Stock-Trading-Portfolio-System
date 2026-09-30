@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "${FRONTEND_URL:http://localhost:5173}")
+
 public class UserController {
 
     private final UserService userService;

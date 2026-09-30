@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/trades")
-@CrossOrigin(origins = "${FRONTEND_URL:http://localhost:5173}")
+
 public class TradeController {
 
     private final TradeService tradeService;

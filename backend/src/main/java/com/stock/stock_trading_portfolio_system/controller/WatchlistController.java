@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/watchlists")
-@CrossOrigin(origins = "${FRONTEND_URL:http://localhost:5173}")
+
 public class WatchlistController {
 
     private final WatchlistService watchlistService;
