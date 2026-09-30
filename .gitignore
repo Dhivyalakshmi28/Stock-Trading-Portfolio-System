@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+backend/target/
+**/target/
+
+# Node
+frontend/node_modules/
+**/node_modules/
+
+# Build output
+frontend/dist/
+**/dist/
+
+# Large raw dataset - keep local
+dataset/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
